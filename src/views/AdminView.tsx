@@ -186,18 +186,6 @@ function AdminView() {
           <h2 className="text-lg font-semibold mb-4">Update Stock Price</h2>
           <form onSubmit={handleUpdateStockPrice} className="space-y-4">
             <div>
-              <label className="block text-sm font-medium text-gray-700">
-                Stock
-              </label>
-              <label
-                htmlFor="stock-select"
-                className="block text-sm font-medium text-gray-700"
-              >
-                Select Stock
-              </label>
-              <label htmlFor="transaction-stock-select" className="sr-only">
-                Select Stock
-              </label>
               <select
                 id="stock-select"
                 aria-label="Select Stock"
@@ -245,90 +233,6 @@ function AdminView() {
           <form onSubmit={handleTransaction} className="space-y-4">
             <div className="grid grid-cols-1 gap-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700">
-                  User
-                </label>
-                <label
-                  htmlFor="user-select"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Select User
-                </label>
-                <label
-                  htmlFor="user-select"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Select User
-                </label>
-                <label
-                  htmlFor="user-select"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Select User
-                </label>
-                <label
-                  htmlFor="user-select"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Select User
-                </label>
-                <label
-                  htmlFor="user-select"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Select User
-                </label>
-                <label htmlFor="user-select" className="sr-only">
-                  Select User
-                </label>
-                <label
-                  htmlFor="user-select"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Select User
-                </label>
-                <label
-                  htmlFor="user-select"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Select User
-                </label>
-                <label
-                  htmlFor="user-select"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Select User
-                </label>
-                <label
-                  htmlFor="user-select"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Select User
-                </label>
-                <label
-                  htmlFor="user-select"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Select User
-                </label>
-                <label
-                  htmlFor="user-select"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Select User
-                </label>
-                <label
-                  htmlFor="user-select"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Select User
-                </label>
-                <label
-                  htmlFor="user-select"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Select User
-                </label>
                 <select
                   id="user-select"
                   aria-label="Select User"
